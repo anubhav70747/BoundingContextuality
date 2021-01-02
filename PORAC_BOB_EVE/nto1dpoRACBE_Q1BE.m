@@ -184,9 +184,6 @@ for a = 1:AS
 end
 PwinE=PwinE/(AS*n);
 %-------------------------------------------------------------------------------
-% Summing winning probability for Eve trying to learn Bob's guess
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
 % Summing winning probability for Eve trying to learn Bob's guess upon
 % recieving Bob's setting b
 PwinEB=0;
