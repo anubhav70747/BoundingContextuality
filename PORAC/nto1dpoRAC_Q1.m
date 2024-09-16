@@ -150,6 +150,6 @@ for a = 1:AS
     end
 end
 Pwin = Pwin/(AS*n)
-diagnostics = optimize([F0;F1;F2;F3;F4;F5], -Pwin, sdpsettings('solver', 'sdpt3'))
+diagnostics = optimize([F0;F1;F2;F3;F4;F5], -Pwin, sdpsettings('solver', 'mosek'))
 Pwin = value(Pwin);
 %--------------------------------------------------------------------------------
